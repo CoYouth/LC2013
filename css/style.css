@@ -1,5 +1,5 @@
 body {
-  background: url("/img/bg.jpg");
+  background: url("/LC2013/img/bg.jpg");
   background-size: 100%;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=”/img/bg.jpg”, sizingMethod=’scale’);
   background-repeat: no-repeat;
@@ -45,12 +45,14 @@ body {
   color: #000000;
   font-family: YouYuan, 幼圆, \5E7C\5706;
   text-align: center;
+  font-weight: normal;
 }
 
 .header h2 {
   color: #000000;
   font-size: 2.12em;
   text-align: center;
+  font-weight: normal;
   font-family: Inconsolata, Andele Mono, Courier New, monospace;
 }
 
@@ -83,10 +85,17 @@ body {
   padding: 10px;
 }
 
+.height240px {
+  height: 240px;
+}
+
+.height180px {
+  height: 180px;
+}
+
 .text-unit {
   border-radius:15px;
   width: 100%;
-  height: 180px;
   padding: 10px;
   color: #a600a6;
   text-align: center;
