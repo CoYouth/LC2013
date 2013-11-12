@@ -123,3 +123,9 @@ body {
 .bg-yellow {
   background-color: #ff73ff;
 }
+
+.sponsors-logo {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
