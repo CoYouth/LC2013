@@ -4,10 +4,10 @@ body {
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, src=”/img/bg.jpg”, sizingMethod=’scale’);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding-top: 60px;
 }
 
 .container {
+  padding-top: 60px;
 }
 
 .navbar {
@@ -66,15 +66,17 @@ body {
   width: 380px;
   height: 267px;
   padding: 15px;
-  background-color: #ffbbff;
+  /*background-color: #ffbbff;*/
   border-radius: 25px;
+  border-color: #ffbbff;
+  border-width: 15px;
 }
 
 .terminal-icon {
   width: 100%;
   height: 100%;
-  padding: 15px;
-  /*background-color: #280558;*/
+  /*padding: 15px;
+  background-color: #280558;*/
   border-radius: 15px;
 }
 
