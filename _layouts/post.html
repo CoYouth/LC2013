@@ -27,23 +27,3 @@ layout: mypage
 <script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js?uid=" charset="utf-8"></script>
 <!-- JiaThis Button END -->
 
-<ul class="pager">
-  {% if page.previous %}
-  <li class="previous">
-    <a href="/LC2013{{ page.previous.url }}" rel="bookmark">
-      <span class="fui-arrow-left"></span>
-      <span>{{ page.previous.title | truncatewords:5 }}</span>
-    </a>
-  </li>
-  {% endif %}
-  {% if page.next %}
-  <li class="next">
-    <a href="/LC2013{{ page.next.url }}" rel="bookmark">
-      <span>{{ page.next.title | truncatewords:5 }}</span>
-      <span class="fui-arrow-right"></span>
-    </a>
-  </li>
-  {% endif %}
-</ul>
-
-<br>
