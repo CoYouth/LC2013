@@ -31,7 +31,7 @@ layout: mypage
 <ul class="pager">
   {% if page.previous %}
   <li class="previous">
-    <a href="{{ page.previous.url }}" rel="bookmark">
+    <a href="/LC2013{{ page.previous.url }}" rel="bookmark">
       <span class="fui-arrow-left"></span>
       <span>{{ page.previous.title | truncatewords:5 }}</span>
     </a>
@@ -39,7 +39,7 @@ layout: mypage
   {% endif %}
   {% if page.next %}
   <li class="next">
-    <a href="{{ page.next.url }}" rel="bookmark">
+    <a href="/LC2013{{ page.next.url }}" rel="bookmark">
       <span>{{ page.next.title | truncatewords:5 }}</span>
       <span class="fui-arrow-right"></span>
     </a>
