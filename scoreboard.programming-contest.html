@@ -1,0 +1,138 @@
+
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv=Content-Type content="text/html;charset=utf-8">
+    <title>第四届&quot;朗讯杯&quot;科技实训大赛编程比赛环节实时排行榜</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style>
+      body {
+      background-color: #868686;
+      }
+
+      #logo {
+      width: 120px;
+      margin-left: 50px;
+      }
+
+      #content {
+      background-color: #efefff;
+      border-radius: 8px;
+      padding: 15px;
+      margin-top: 15px;
+      border: 1px solid #ccc;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
+      border-radius: 8px;
+      -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
+      -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
+      box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
+      }
+
+      #footer {
+      padding: 15px;
+      margin-top: 15px;
+      color: #fff;
+      }
+
+      #fb {
+      background-color: #9ff098;
+      }
+
+      #ac {
+      background-color: #dff0d8;
+      }
+
+      #wa {
+      background-color: #f2dede;
+      }
+
+      td {
+      height: 2em;
+      vertical-align: middle !important;
+      }
+
+      tr {
+      cursor: hand;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="content">
+	<div class="row">
+	  <div class="span3">
+	    <img id="logo" src="img/logo.gif" alt="lucent cup logo">
+	  </div>
+	  <div class="span6">
+	  <h3>
+	    第四届&quot;朗讯杯&quot;科技实训大赛
+	  </h3>
+	  <h4>
+	    编程比赛环节实时排行榜
+	  </h4>
+	  </div>
+	</div>
+      </div>
+      <div id="content">
+	<div class="navbar">
+	  <div class="navbar-inner">
+	    <ul class="nav">
+	      <li class="active">
+		<a href="index.php">
+		  Show all teams
+		</a>
+	      </li>
+	      <li>
+		<a href="index.php?action=showconcernperson">
+		  Show Concerned Teams
+		</a>
+	      </li>
+	    </ul>
+	    <ul class="nav pull-right">
+	      <li>
+		<a href="index.php?action=concern_person">
+		  Set Concern Teams
+		</a>
+	      </li>
+	    </ul>
+	  </div>
+	</div>
+	<div id="tablebox">
+	  <table class="table table-striped table-bordered table-hover table-condensed" id="ranktable">
+	    <thead>
+	      <tr>
+		<th></th>
+		<th>#</th>
+		<th>Team</th>
+		<th>School</th>
+		<th>Solved</th>
+		<th>Penalty</th>
+		<th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>F</th><th>G</th><th>H</th><th>I</th><th>J</th>	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr><td><img src="cup.gif"/></td><td>1</td><td>Team8</td><td>QDEZ</td><td>5</td><td><font color=purple>636</font></td><td id="fb">21</td><td id="ac">61</td><td id="wa">(-4)</td><td id="fb">186</td><td></td><td id="wa">(-2)</td><td></td><td></td><td id="fb">231</td><td id="ac">97</td></tr><tr><td><img src="gold.gif"/></td><td>2</td><td>Bedivere</td><td>SDUST</td><td>5</td><td><font color=purple>663</font></td><td id="ac">100</br>(-1)</td><td id="ac">108</td><td id="ac">226</td><td id="wa">(-4)</td><td></td><td id="fb">175</td><td></td><td></td><td></td><td id="ac">34</td></tr><tr><td><img src="gold.gif"/></td><td>3</td><td>Team111</td><td>OUC</td><td>5</td><td><font color=purple>990</font></td><td id="ac">106</br>(-6)</td><td id="ac">103</br>(-1)</td><td id="fb">205</td><td id="ac">262</br>(-2)</td><td></td><td></td><td></td><td></td><td></td><td id="ac">34</br>(-1)</td></tr><tr><td><img src="gold.gif"/></td><td>4</td><td>dsdog</td><td>OUC</td><td>4</td><td><font color=purple>423</font></td><td id="ac">46</td><td id="ac">114</td><td id="wa">(-5)</td><td id="ac">201</br>(-1)</td><td></td><td id="wa">(-6)</td><td></td><td></td><td></td><td id="ac">42</td></tr><tr><td><img src="gold.gif"/></td><td>5</td><td>RP++</td><td>OUC</td><td>4</td><td><font color=purple>476</font></td><td id="ac">67</td><td id="ac">89</td><td id="wa">(-6)</td><td id="ac">264</br>(-1)</td><td id="wa">(-1)</td><td></td><td></td><td></td><td></td><td id="ac">36</td></tr><tr><td><img src="gold.gif"/></td><td>6</td><td>Superido</td><td>SDUST</td><td>4</td><td><font color=purple>606</font></td><td id="ac">79</br>(-2)</td><td id="ac">134</td><td></td><td id="ac">239</br>(-3)</td><td></td><td></td><td></td><td></td><td></td><td id="ac">54</td></tr><tr><td><img src="silver.gif"/></td><td>7</td><td>QDU_falcon</td><td>QDU</td><td>4</td><td><font color=purple>820</font></td><td id="ac">255</br>(-4)</td><td id="ac">95</br>(-1)</td><td></td><td id="ac">265</br>(-1)</td><td></td><td></td><td></td><td></td><td></td><td id="ac">85</td></tr><tr><td><img src="silver.gif"/></td><td>8</td><td>SkyFire </td><td>SDUST</td><td>4</td><td><font color=purple>924</font></td><td id="ac">138</br>(-5)</td><td id="ac">235</br>(-4)</td><td></td><td id="wa">(-3)</td><td id="wa">(-1)</td><td id="ac">214</br>(-4)</td><td></td><td></td><td></td><td id="ac">77</td></tr><tr><td><img src="silver.gif"/></td><td>9</td><td>Polarlights </td><td>SDUST</td><td>3</td><td><font color=purple>274</font></td><td id="ac">92</td><td id="ac">120</td><td id="wa">(-7)</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">62</td></tr><tr><td><img src="silver.gif"/></td><td>10</td><td>Assasin</td><td>SDUST</td><td>3</td><td><font color=purple>370</font></td><td id="ac">85</br>(-2)</td><td id="ac">149</td><td></td><td id="wa">(-6)</td><td></td><td id="wa">(-1)</td><td></td><td></td><td></td><td id="ac">76</br>(-1)</td></tr><tr><td><img src="silver.gif"/></td><td>11</td><td>QDU_HuntingGo</td><td>QDU</td><td>3</td><td><font color=purple>400</font></td><td id="ac">238</br>(-2)</td><td id="ac">48</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">74</td></tr><tr><td><img src="silver.gif"/></td><td>12</td><td>CHT</td><td>OUC</td><td>3</td><td><font color=purple>453</font></td><td id="ac">215</br>(-1)</td><td id="ac">162</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">56</td></tr><tr><td><img src="silver.gif"/></td><td>13</td><td>downloader</td><td>OUC</td><td>3</td><td><font color=purple>538</font></td><td id="ac">185</br>(-6)</td><td id="ac">160</br>(-2)</td><td></td><td id="wa">(-2)</td><td></td><td></td><td></td><td></td><td></td><td id="ac">33</td></tr><tr><td><img src="silver.gif"/></td><td>14</td><td>B304</td><td>OUC</td><td>3</td><td><font color=purple>558</font></td><td id="ac">56</br>(-1)</td><td id="ac">236</br>(-2)</td><td id="wa">(-15)</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">206</td></tr><tr><td><img src="silver.gif"/></td><td>15</td><td>Y</td><td>OUC</td><td>3</td><td><font color=purple>608</font></td><td id="ac">256</br>(-7)</td><td id="ac">137</br>(-1)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">55</td></tr><tr><td><img src="silver.gif"/></td><td>16</td><td>zeus</td><td>OUC</td><td>2</td><td><font color=purple>124</font></td><td id="wa">(-4)</td><td id="ac">83</br>(-1)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="fb">21</td></tr><tr><td><img src="silver.gif"/></td><td>17</td><td>QDU_orange</td><td>QDU</td><td>2</td><td><font color=purple>127</font></td><td id="wa">(-6)</td><td id="ac">44</br>(-1)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">63</td></tr><tr><td><img src="silver.gif"/></td><td>18</td><td>Excellent</td><td>OUC</td><td>2</td><td><font color=purple>227</font></td><td id="wa">(-1)</td><td id="fb">25</td><td id="wa">(-4)</td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">182</br>(-1)</td></tr><tr><td><img src="bronze.gif"/></td><td>19</td><td>DreamCatcher</td><td>OUC</td><td>2</td><td><font color=purple>396</font></td><td></td><td id="ac">256</br>(-1)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">120</td></tr><tr><td><img src="bronze.gif"/></td><td>20</td><td>Tsia</td><td>OUC</td><td>2</td><td><font color=purple>406</font></td><td></td><td id="ac">162</br>(-2)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">204</td></tr><tr><td><img src="bronze.gif"/></td><td>21</td><td>neverthink</td><td>OUC</td><td>2</td><td><font color=purple>415</font></td><td id="wa">(-5)</td><td id="ac">289</br>(-2)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">86</td></tr><tr><td><img src="bronze.gif"/></td><td>22</td><td>swallow</td><td>OUC</td><td>2</td><td><font color=purple>416</font></td><td></td><td id="ac">220</br>(-2)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">156</td></tr><tr><td><img src="bronze.gif"/></td><td>23</td><td>bit</td><td>OUC</td><td>2</td><td><font color=purple>493</font></td><td id="wa">(-5)</td><td id="ac">229</br>(-2)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">184</br>(-2)</td></tr><tr><td><img src="bronze.gif"/></td><td>24</td><td>miracle</td><td>OUC</td><td>2</td><td><font color=purple>550</font></td><td></td><td id="ac">282</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">168</br>(-5)</td></tr><tr><td><img src="bronze.gif"/></td><td>25</td><td>QDU_Sakyamuni</td><td>QDU</td><td>1</td><td><font color=purple>88</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">88</td></tr><tr><td><img src="bronze.gif"/></td><td>26</td><td>hengha</td><td>OUC</td><td>1</td><td><font color=purple>90</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">90</td></tr><tr><td><img src="bronze.gif"/></td><td>27</td><td>success</td><td>OUC</td><td>1</td><td><font color=purple>124</font></td><td></td><td id="wa">(-8)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">124</td></tr><tr><td><img src="bronze.gif"/></td><td>28</td><td>WAM</td><td>OUC</td><td>1</td><td><font color=purple>134</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">114</br>(-1)</td></tr><tr><td><img src="bronze.gif"/></td><td>29</td><td>Coding</td><td>OUC</td><td>1</td><td><font color=purple>135</font></td><td></td><td id="wa">(-7)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">95</br>(-2)</td></tr><tr><td><img src="bronze.gif"/></td><td>30</td><td>QAUDEEP</td><td>QAU</td><td>1</td><td><font color=purple>136</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">116</br>(-1)</td></tr><tr><td><img src="bronze.gif"/></td><td>31</td><td>Oracle</td><td>OUC</td><td>1</td><td><font color=purple>174</font></td><td id="wa">(-4)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">174</td></tr><tr><td><img src="bronze.gif"/></td><td>32</td><td>JustMe</td><td>OUC</td><td>1</td><td><font color=purple>178</font></td><td id="wa">(-5)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">178</td></tr><tr><td><img src="bronze.gif"/></td><td>33</td><td>finally</td><td>OUC</td><td>1</td><td><font color=purple>192</font></td><td></td><td id="wa">(-10)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">172</br>(-1)</td></tr><tr><td><img src="bronze.gif"/></td><td>34</td><td>Digia</td><td>OUC</td><td>1</td><td><font color=purple>251</font></td><td></td><td id="wa">(-14)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">191</br>(-3)</td></tr><tr><td><img src="bronze.gif"/></td><td>35</td><td>Alexandria</td><td>OUC</td><td>1</td><td><font color=purple>306</font></td><td id="wa">(-8)</td><td id="wa">(-2)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">246</br>(-3)</td></tr><tr><td><img src="bronze.gif"/></td><td>36</td><td>milk</td><td>OUC</td><td>1</td><td><font color=purple>322</font></td><td id="wa">(-1)</td><td id="wa">(-8)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="ac">142</br>(-9)</td></tr><tr><td></td><td>37</td><td>daydayup</td><td>OUC</td><td>0</td><td><font color=purple>0</font></td><td id="wa">(-55)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>37</td><td>green</td><td>OUC</td><td>0</td><td><font color=purple>0</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td id="wa">(-1)</td></tr><tr><td></td><td>37</td><td>NeverMore</td><td>OUC</td><td>0</td><td><font color=purple>0</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>37</td><td>Team40</td><td>OUC</td><td>0</td><td><font color=purple>0</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>37</td><td>Team41</td><td>OUC</td><td>0</td><td><font color=purple>0</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>37</td><td>Team42</td><td>OUC</td><td>0</td><td><font color=purple>0</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>37</td><td>Team43</td><td>OUC</td><td>0</td><td><font color=purple>0</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>37</td><td>Team44</td><td>OUC</td><td>0</td><td><font color=purple>0</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>37</td><td>Team45</td><td>OUC</td><td>0</td><td><font color=purple>0</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>37</td><td>Team46</td><td>OUC</td><td>0</td><td><font color=purple>0</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>37</td><td>Team47</td><td>OUC</td><td>0</td><td><font color=purple>0</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>37</td><td>Team48</td><td>OUC</td><td>0</td><td><font color=purple>0</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>37</td><td>Team49</td><td>OUC</td><td>0</td><td><font color=purple>0</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>37</td><td>Team50</td><td>OUC</td><td>0</td><td><font color=purple>0</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>37</td><td>team51</td><td>OUC</td><td>0</td><td><font color=purple>0</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>37</td><td>team52</td><td>OUC</td><td>0</td><td><font color=purple>0</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>37</td><td>team53</td><td>OUC</td><td>0</td><td><font color=purple>0</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>37</td><td>team54</td><td>OUC</td><td>0</td><td><font color=purple>0</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>37</td><td>team55</td><td>OUC</td><td>0</td><td><font color=purple>0</font></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>	    </tbody>
+	  </table>
+	</div>
+
+	<p align="center"><a class="btn btn-lg" href="#top">Back to Top</a></p>
+      </div>
+    </div>
+    <div class="container">
+      <div id="footer">
+	<p align="center">青岛朗讯科技通讯设备有限公司 | 中国海洋大学信息科学与工程学院团委 | CoYouth俱乐部<br>Ranklist powered by SDUT's Code. UI redesigned by MY Sun with Bootstrap UI and Jquery</p>
+	<img width="100%" src="img/cc.gif">;
+      </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    </script>
+  </body>
+</html>
+
+
